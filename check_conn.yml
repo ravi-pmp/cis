@@ -1,0 +1,8 @@
+---
+- name: check connectivity
+  hosts: all
+  become: yes
+  tasks:
+    - name: cat /etc/shadow
+      shell:
+        cmd: uptime

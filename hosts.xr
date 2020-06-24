@@ -1,0 +1,42 @@
+[ssp]
+GIBVRSSPSP001 ansible_user=sE00_PAT_ans ansible_password=P@ssw0rd1234  ansible_become_password=P@ssw0rd1234
+giavrssppq001 ansible_user=sB00_PAT_ans ansible_password=Spel1@wb  ansible_become_password=Spel1@wb
+gibvrssppq001 ansible_user=sB00_PAT_ans ansible_password=Spel1@wb  ansible_become_password=Spel1@wb
+[new]
+giavrbasbs002 ansible_user=sB00_PAT_ans ansible_password=P@ssw0rd  ansible_become_password=P@ssw0rd
+giavrbasbs005
+giavrbkpbs004
+giavrlmslm001
+giavrlmslm002
+giavrlmssl002
+GIAVRLMSSL005
+giavrlmssl007
+GIAVRSSPFN001
+GIAVRSSPRE001
+GIAVRSSPRE002
+giavrsspre003
+[add]
+GIAVRVMSAS004 ansible_user=sE00_PAT_ans ansible_password=P@ssw0rd  ansible_become_password=P@ssw0rd
+gibvrbkpbs002 ansible_user=sE00_PAT_ans ansible_password=Spel1@wb123456  ansible_become_password=Spel1@wb123456
+giavrsspre003 ansible_user=sE00_PAT_ans ansible_password=Spel1@wb ansible_become_password=Spel1@wb
+GIAVRSSPRE002 ansible_user=sE00_PAT_ans ansible_password=Spel1@wb ansible_become_password=Spel1@wb
+GIAVRSSPRE001 ansible_user=sE00_PAT_ans ansible_password=Spel1@wb ansible_become_password=Spel1@wb
+[backup]
+giavebasbs002 ansible_user=sF00_PAT_ans ansible_password=P@ssw0rd  ansible_become_password=P@ssw0rd
+giavrbasbs002 ansible_user=sE00_PAT_ans ansible_password=P@ssw0rd  ansible_become_password=P@ssw0rd
+giavrbasbs005 ansible_user=sE00_PAT_ans ansible_password=P@ssw0rd  ansible_become_password=P@ssw0rd
+giavrbkpbs002 ansible_user=sF00_PAT_ans ansible_password=P@ssw0rd  ansible_become_password=P@ssw0rd
+giavrbkpbs003 ansible_user=sE00_PAT_ad ansible_password=P@ssw0rd1234 ansible_become_password=P@ssw0rd1234
+giavrbkpbs004 ansible_user=sE00_PAT_ans ansible_password=P@ssw0rd  ansible_become_password=P@ssw0rd
+gibvrbkpbs002 ansible_user=sE00_PAT_ans ansible_password=P@ssw0rd  ansible_become_password=P@ssw0rd
+gibvrbkpbs003 ansible_user=sE00_PAT_ad ansible_password=P@ssw0rd1234 ansible_become_password=P@ssw0rd1234
+[lms]
+giavrlmslm001 ansible_user=sE00_PAT_ans ansible_password=P@ssw0rd  ansible_become_password=P@ssw0rd
+giavrlmssl002 ansible_user=sE00_PAT_ans ansible_password=P@ssw0rd  ansible_become_password=P@ssw0rd
+giavrlmssl007 ansible_user=sE00_PAT_ans ansible_password=P@ssw0rd  ansible_become_password=P@ssw0rd
+[sspupgrade]
+GIAVRSSPRE001 
+GIAVRSSPRE002
+giavrsspre003
+GIAVRSSPPQ001
+GIBVRSSPPQ001

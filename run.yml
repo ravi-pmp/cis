@@ -1,0 +1,8 @@
+---
+- name: harden server
+  hosts: all
+  become: yes 
+  
+  roles:
+    - RHEL7-CIS
+  

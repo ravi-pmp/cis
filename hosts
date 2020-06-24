@@ -1,0 +1,56 @@
+gibvrssppq001
+GIAVRSSPPQ001
+GIAVRSSPRE001
+GIAVRSSPRE002
+giavrsspre003
+#[ssp]
+#GIBVRSSPSP001 
+#giavrssppq001
+#gibvrssppq001 
+#[new]
+#giavrbasbs002 
+#giavrbasbs005
+#giavrbkpbs004
+#giavrlmslm001
+#giavrlmslm002
+#giavrlmssl002
+#GIAVRLMSSL005
+#giavrlmssl007
+#GIAVRSSPFN001
+#GIAVRSSPRE001
+#GIAVRSSPRE002
+#giavrsspre003
+#[add]
+#GIAVRVMSAS004 
+#gibvrbkpbs002 
+#giavrsspre003
+#GIAVRSSPRE002 
+#GIAVRSSPRE001
+#[backup]
+#giavebasbs002 
+#giavrbasbs002
+#giavrbasbs005
+#giavrbkpbs002
+#giavrbkpbs003 
+#giavrbkpbs004
+#gibvrbkpbs002 
+#gibvrbkpbs003
+#[lms]
+#giavrlmslm001 
+#giavrlmssl002
+#giavrlmssl007 
+#[sspupgrade]
+#GIAVRSSPRE001 
+#GIAVRSSPRE002
+#giavrsspre003
+#GIAVRSSPPQ001
+#GIBVRSSPPQ001
+#[sftp]
+giavrsmtas001  ansible_port=15022
+giavesmtfs001  ansible_port=15022
+giavesmtfs003  ansible_port=15022
+giavrsmtfs001   ansible_port=15022
+##giavrsmtfs002  ansible_user=sB00_PAT_ans ansible_password=Spel1@wb1234 ansible_become_password=Spel1@wb1234  ansible_port=15022
+#gibvrsmtfs001  ansible_user=sE00_PAT_ad ansible_password=Spel1@wb123456 ansible_become_password=Spel1@wb123456  ansible_port=15022
+#giavrsmtas002  ansible_user=admin ansible_password=QA@GDC2!! ansible_become_password=QA@GDC2!! ansible_port=15022
+#gibvrsmtas001 ansible_user=sE00_PAT_ad ansible_password=Spel1@wb123456 ansible_become_password=Spel1@wb123456  ansible_port=15022

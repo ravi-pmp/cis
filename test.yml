@@ -1,0 +1,7 @@
+---
+- name: ping module
+  hosts: sftp
+  become: True 
+  tasks:
+    - name: just display
+      shell: uptime

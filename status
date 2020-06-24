@@ -1,0 +1,133 @@
+giavrlmssl007 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to create temporary directory.In some cases, you may have been able to authenticate and did not have permissions on the target directory. Consider changing the remote tmp path in ansible.cfg to a path rooted in \"/tmp\", for more error information use -vvv. Failed command was: ( umask 77 && mkdir -p \"` echo ~/.ansible/tmp `\"&& mkdir ~/.ansible/tmp/ansible-tmp-1592896371.03-23590-254392762091401 && echo ansible-tmp-1592896371.03-23590-254392762091401=\"` echo ~/.ansible/tmp/ansible-tmp-1592896371.03-23590-254392762091401 `\" ), exited with result 1", 
+    "unreachable": true
+}
+GIAVRSSPRE002 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    }, 
+    "changed": false, 
+    "ping": "pong"
+}
+giavrlmslm001 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    }, 
+    "changed": false, 
+    "ping": "pong"
+}
+giavrlmssl002 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    }, 
+    "changed": false, 
+    "ping": "pong"
+}
+giavrsspre003 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    }, 
+    "changed": false, 
+    "ping": "pong"
+}
+GIAVRSSPPQ001 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    }, 
+    "changed": false, 
+    "ping": "pong"
+}
+GIBVRSSPPQ001 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    }, 
+    "changed": false, 
+    "ping": "pong"
+}
+GIBVRSSPSP001 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    }, 
+    "changed": false, 
+    "ping": "pong"
+}
+giavrssppq001 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    }, 
+    "changed": false, 
+    "ping": "pong"
+}
+GIAVRVMSAS004 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: IMPORTANT NOTICE\nThis computer system is the property of Singapore Government and the use of this system is restricted to authorised government purpose only.\nAny unauthorised access and use of this computer is prohibited and may be subject to criminal protection under the Computer Misuse Act.\nThe Singapore Government reserves the right to monitor its use as necessary to ensure data security, availability and system stability.\nPermission denied (publickey,gssapi-keyex,gssapi-with-mic,password).", 
+    "unreachable": true
+}
+gibvrssppq001 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    }, 
+    "changed": false, 
+    "ping": "pong"
+}
+giavrbkpbs004 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to create temporary directory.In some cases, you may have been able to authenticate and did not have permissions on the target directory. Consider changing the remote tmp path in ansible.cfg to a path rooted in \"/tmp\", for more error information use -vvv. Failed command was: ( umask 77 && mkdir -p \"` echo ~/.ansible/tmp `\"&& mkdir ~/.ansible/tmp/ansible-tmp-1592896374.93-23748-19236448465410 && echo ansible-tmp-1592896374.93-23748-19236448465410=\"` echo ~/.ansible/tmp/ansible-tmp-1592896374.93-23748-19236448465410 `\" ), exited with result 1", 
+    "unreachable": true
+}
+giavrlmslm002 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).", 
+    "unreachable": true
+}
+GIAVRLMSSL005 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: Use of this network is restricted to authorised users only.  User activity may be monitored and/or recorded. Anyone using this network expressly consents to such monitoring and/or recording.  BE ADVISED: if possible criminal activity is detected, these records, along with certain personal information, may be provided to law enforcement officials.\nPermission denied (publickey,gssapi-keyex,gssapi-with-mic,password).", 
+    "unreachable": true
+}
+gibvrbkpbs002 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host gibvrbkpbs002 port 22: No route to host", 
+    "unreachable": true
+}
+GIAVRSSPRE001 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host giavrsspre001 port 22: Connection timed out", 
+    "unreachable": true
+}
+giavrbasbs002 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host giavrbasbs002 port 22: Connection timed out", 
+    "unreachable": true
+}
+giavrbasbs005 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host giavrbasbs005 port 22: Connection timed out", 
+    "unreachable": true
+}
+giavrbkpbs003 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: IMPORTANT NOTICE\nThis computer system is the property of Singapore Government and the use of this system is restricted to authorised government purpose only.Any unauthorised access and use of this computer is prohibited and may be subject to criminal protection under the Computer Misuse Act.The Singapore Government reserves the right to monitor its use as necessary to ensure data security, availability and system stability.\n\nPermission denied (publickey,gssapi-keyex,gssapi-with-mic,password).", 
+    "unreachable": true
+}
+gibvrbkpbs003 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to create temporary directory.In some cases, you may have been able to authenticate and did not have permissions on the target directory. Consider changing the remote tmp path in ansible.cfg to a path rooted in \"/tmp\", for more error information use -vvv. Failed command was: ( umask 77 && mkdir -p \"` echo ~/.ansible/tmp `\"&& mkdir ~/.ansible/tmp/ansible-tmp-1592896384.58-23789-106303853931388 && echo ansible-tmp-1592896384.58-23789-106303853931388=\"` echo ~/.ansible/tmp/ansible-tmp-1592896384.58-23789-106303853931388 `\" ), exited with result 1", 
+    "unreachable": true
+}
+GIAVRSSPFN001 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host giavrsspfn001 port 22: Connection timed out", 
+    "unreachable": true
+}
+giavebasbs002 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host giavebasbs002 port 22: Connection timed out", 
+    "unreachable": true
+}
+giavrbkpbs002 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: IMPORTANT NOTICE\nThis computer system is the property of Singapore Government and the use of this system is restricted to authorised government purpose only.Any unauthorised access and use of this computer is prohibited and may be subject to criminal protection under the Computer Misuse Act.The Singapore Government reserves the right to monitor its use as necessary to ensure data security, availability and system stability.\n\nPermission denied (publickey,gssapi-keyex,gssapi-with-mic,password).", 
+    "unreachable": true
+}
