@@ -1,6 +1,6 @@
 ---
 - name: ping module
-  hosts: sftp
+  hosts: all
   become: True 
   tasks:
     - name: just display
